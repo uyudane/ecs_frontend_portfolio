@@ -35,7 +35,6 @@ const MyApp = (props: MyAppProps) => {
           <CssBaseline />
           <RecoilRoot>
             <Layout>
-              {process.env.NODE_ENV == 'production' && <GoogleAnalytics />}
               <Component {...pageProps} />
             </Layout>
           </RecoilRoot>
