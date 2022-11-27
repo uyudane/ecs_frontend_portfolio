@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 9000",
+    "dev": "next dev -p 9100",
     "build": "next build",
-    "start": "next start -p 9000",
+    "start": "next start -p 9100",
     "lint": "next lint --dir src",
     "export": "next export",
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json,css}'",
