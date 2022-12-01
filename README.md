@@ -1,3 +1,7 @@
-こちらは「ProadMaps」のフロントエンドのリポジトリになります。
-Readme は
-[バックエンドのリポジトリ](https://github.com/uyudane/backend-proadmaps)に記載しております。
+## 注意
+こちらは「ProadMaps」のAmazon ECSにデプロイ向けに作成したリポジトリになります。
+AWSのデプロイ以外の作業ログが残っており、実際に運用しているリポジトリは[こちら](https://github.com/uyudane/backend-proadmaps)です。
+※遷移先では、Herokuにデプロイしています。
+
+### 別途リポジトリを作成した理由
+学習用&就活向けにAWSデプロイするためにこちらのリポジトリを使用しており、実際にしばらく運用する予定のサービスは定額のHerokuにデプロイしました。
