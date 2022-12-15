@@ -52,8 +52,7 @@ export const deleteRoadmap = async (id: string, token: string) => {
         Authorization: `Bearer ${token}`,
       },
     });
-    console.log(res.statusText);
-    return res.statusText; // 0Kが返る想定
+    return res.status; // 0Kが返る想定
   } catch (error) {
     return error;
   }

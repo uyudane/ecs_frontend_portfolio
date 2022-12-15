@@ -38,7 +38,7 @@ const RoadmapEditDeleteButton = ({ roadmap }: Props) => {
 
   const execDeleteRoadmap = async () => {
     const result = await deleteRoadmap(String(roadmap.id), token);
-    if (result === 'OK') {
+    if (result === 200) {
       setOpen(false);
       router.push({
         pathname: deletedRedirectPath,
